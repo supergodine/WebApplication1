@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{572E5D59-7AEE-41AB-84E9-47181A7C6089}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{572E5D59-7AEE-41AB-84E9-47181A7C6089}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Tests", "0-Tests", "{1A228072-368A-476C-A664-7AACA392959F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Templat.Appication.Tests", "Templat.Appication.Tests\Templat.Appication.Tests.csproj", "{DB6FDC41-1940-4BCF-97B2-8E14E3D419E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{572E5D59-7AEE-41AB-84E9-47181A7C6089}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{572E5D59-7AEE-41AB-84E9-47181A7C6089}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{572E5D59-7AEE-41AB-84E9-47181A7C6089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB6FDC41-1940-4BCF-97B2-8E14E3D419E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB6FDC41-1940-4BCF-97B2-8E14E3D419E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB6FDC41-1940-4BCF-97B2-8E14E3D419E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB6FDC41-1940-4BCF-97B2-8E14E3D419E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB6FDC41-1940-4BCF-97B2-8E14E3D419E7} = {1A228072-368A-476C-A664-7AACA392959F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2D040066-35E6-4D91-8FF4-17A3621161E9}
